@@ -1,0 +1,60 @@
+<style>
+  .outline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .outline h1 {
+    font-size: 2.2em;
+    color: oklch(90% 0.1 254.624);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .outline div {
+    font-size: 1.6em;
+    color: oklch(90% 0.1 254.624);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .outline div .fragment {
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    font-size: 1.4em;
+  }
+
+  .outline div .fragment.visible {
+    opacity: 1;
+  }
+</style>
+
+<section data-auto-animate>
+  <div class="outline">
+    <div>总体介绍</div>
+    <div class="fragment">实例展示</div>
+    <div class="fragment">展望</div>
+    <div class="fragment">讨论</div>
+  </div>
+</section>
+
+<section data-auto-animate>
+  <div class="outline">
+    <h1>为什么需要插件系统</h1>
+  </div>
+</section>
+
+<section data-auto-animate>
+  <div class="outline">
+    <div>插件系统开放了哪些能力</div>
+    <div class="fragment">消息转换器</div>
+    <div class="fragment">自定义面板</div>
+  </div>
+</section>

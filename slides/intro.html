@@ -1,0 +1,95 @@
+<section>
+  <div class="intro-container">
+    <h2>关于我</h2>
+    <div class="profile">
+      <div class="avatar">
+        <img src="https://github.com/Woodii1998.png" alt="Woodii's avatar">
+      </div>
+      <div class="info">
+        <h3>李军辉 (@Woodii)</h3>
+        <p>刻行时空 · 前端开发</p>
+        <p>负责可视化部份开发</p>
+        <p>GitHub: <a href="https://github.com/Woodii1998" target="_blank">github.com/Woodii1998</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  section {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .intro-container h2 {
+    color: oklch(80% 0.1 254.624);
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: oklch(40% 0.1 254.624 / 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid oklch(40% 0.1 254.624 / 0.2);
+    width: 100%;
+    box-shadow: 0 0 20px oklch(25% 0.2 254.624 / 0.1);
+  }
+
+  .avatar {
+    flex-shrink: 0;
+  }
+
+  .avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid oklch(40% 0.1 254.624 / 0.3);
+    box-shadow: 0 0 15px oklch(25% 0.2 254.624 / 0.2);
+  }
+
+  .info {
+    color: oklch(80% 0.1 254.624);
+    text-align: left;
+    flex: 1;
+  }
+
+  .info h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.2em;
+  }
+
+  .info p {
+    margin: 4px 0;
+    font-size: 1em;
+  }
+
+  .info a {
+    color: oklch(80% 0.1 254.624);
+    text-decoration: none;
+    border-bottom: 1px solid oklch(40% 0.1 254.624 / 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .info a:hover {
+    border-bottom-color: oklch(80% 0.1 254.624);
+  }
+</style>
